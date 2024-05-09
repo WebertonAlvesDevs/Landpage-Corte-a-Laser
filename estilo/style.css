@@ -3,3 +3,11 @@
     margin: 0px;
     padding: 0px;
 }
+
+body{
+
+}
+nav.a {
+    background-color: gray;
+    text-decoration: none;
+}

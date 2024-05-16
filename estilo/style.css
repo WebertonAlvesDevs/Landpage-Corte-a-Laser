@@ -2,12 +2,11 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
-body{
-
-}
-nav.a {
-    background-color: gray;
-    text-decoration: none;
+:root{
+    --primary-color: #2f4550;
+    --secondary-color: #586f7c;
+    --terciary-color: #f4f4f9;
 }

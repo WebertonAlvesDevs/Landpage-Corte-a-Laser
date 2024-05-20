@@ -3,21 +3,24 @@
     --secondary-color: #586f7c;
     --terciary-color: #f4f4f9;
 }
-body header img{
-    display: flex;
-    margin: 0 auto;
+    
+
+header img{
+    
+    max-height:100px;
     padding: 0;
-    width: 500px;
-    height: 300px;
+    width: 100vw;
 
 }
 header{
+    margin: 0 auto;
     background-color:var(--terciary-color);
     height: fit-content;
     position: sticky;
     top: 0;
     z-index: 1;
     padding: 0 0;
+    
 
 }
 header nav ul{
@@ -64,24 +67,48 @@ main section h3{
     color:#586f7c;
 }
 main section h4{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
     color:#2f4550;
+    padding-top: 1rem;
+    padding-left: 340px ;
+    padding-bottom: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    
     
 }
 main section p{
-    background-color: #586f7c;
-    color:white;
+    text-align: center;
+    margin: 0 auto;
+    color:#2f4550;
+    letter-spacing: .15rem;
+    line-height: 2rem;
 }
 main section div{
     width: 100%;
     height: 100%;
 
-  
+}
+img{
+    width: 100%;
+    height: 500px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    opacity: 60%;
+    padding-top: 0.50rem;
 
 }
 .white{
-  
-   
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    
+    
 }
+
 .white h1{
     
 }
@@ -90,25 +117,23 @@ main section div{
     
 
 }
-
-.container{
-    position: relative;
-   width: 620px;
-   display: grid; 
-   grid-template-columns: 1fr;
-   align-items: flex-start;
-   justify-content: flex-start;
+.container h4{
+    display: flex;
+    
+    
+    
 
 }
-.img-laser{
-    width: 100%;
-    height: 100%;
-    display: grid; 
-    grid-template-columns: 1fr;
-    align-items: flex-end;
-    justify-content: flex-end;
+.container p{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 600px;
+    
 
 }
+
+
 
     
     

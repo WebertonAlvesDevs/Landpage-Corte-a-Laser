@@ -3,50 +3,56 @@
     --secondary-color: #586f7c;
     --terciary-color: #f4f4f9;
 }
-    
-
-header img{
-    
-    max-height:100px;
-    padding: 0;
+hr{
     width: 100vw;
-
+    border: 13px solid #f4f4f9;
+    color: #f4f4f9;
+    
 }
+#nere{   
+    align-items: end;
+    justify-content: end;
+    cursor: pointer;
+}
+    
 header{
     margin: 0 auto;
     background-color:var(--terciary-color);
-    height: fit-content;
     position: sticky;
     top: 0;
     z-index: 1;
     padding: 0 0;
-    
 
 }
-header nav ul{
-    margin:0 auto;
+header img{
     width: 100vw;
+    height:400px;
+
+}
+img{
+    text-align: center;
+    margin-top: -9rem;
+
+}
+
+header nav ul{
+    margin-top: -8rem;
+    width: 100;
     display: flex;
-    align-items: right;
-    justify-content: center;
-    gap: 1rem;
+    align-items: end;
+    justify-content: end;
     padding: 0.5rem 2rem;
-    background-color: #586f7c;
-    color: var(--terciary-color);
 }
 header nav ul li{
     font-weight: bold;
-    color: #f4f4f9;
     min-width: fit-content; 
     height: fit-content;
     padding: 0 0.75rem;
     cursor: pointer;
     list-style: none;
+    
 }
-header nav ul li a{
-    text-decoration: none;
-    color: white;
-}
+
 main section{
     text-align: center;
 }
@@ -57,6 +63,7 @@ main section h1{
 
 }
 main section h2{
+    margin-top: 1.5rem;
     background-color: #586f7c;
     color:white;
     font-weight: bold;
@@ -71,7 +78,7 @@ main section h4{
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.3rem;
     color:#2f4550;
-    padding-top: 1rem;
+    padding-top: 3rem;
     padding-left: 340px ;
     padding-bottom: 1rem;
     text-align: center;
@@ -91,13 +98,51 @@ main section div{
     height: 100%;
 
 }
-img{
+#network #redes li a{
+    width:100vw;
+    background-color: #f4f4f9;
+    color: #f4f4f9;
+    align-items: end;
+    justify-content: end;
+    cursor: pointer;
+
+}
+#redes li,a{
+    cursor: pointer;
+}
+.navegacao{
+    background-color: #586f7c;
+    margin-bottom: 6rem;
+    text-transform: uppercase;
+    font-size: small;
+    font-weight: bold;
+}
+.nav{
+
+}
+.nav li,a{
+    width: 100vw;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    min-width: fit-content; 
+    height: fit-content;
+    padding: 0;
+    background-color: #586f7c;
+    color: #f4f4f9;
+   
+
+    
+   
+}
+.img{
     width: 100%;
     height: 500px;
     align-items: flex-start;
     justify-content: flex-start;
     opacity: 60%;
-    padding-top: 0.50rem;
+    margin-top: 2.5rem;
 
 }
 .white{

@@ -154,14 +154,6 @@ main section div{
     
 }
 
-.white h1{
-    
-}
-
-.white h3{
-    
-
-}
 .container h4{
     display: flex;
     
@@ -176,6 +168,46 @@ main section div{
     width: 600px;
     
 
+}
+.grid{
+    display: grid;
+    width: 75%;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 15rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+
+}
+.card1{
+    border: 2px solid var(--primary-color);
+    height: 450px;
+    margin-right: 10rem;
+    background-color: #f4f4f9;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.card1 img{
+    width: 35%;
+    height: 350px;
+    padding-top: 7rem;
+    
+}
+.card1 h2{
+    background-color: #f4f4f9;
+    color: #586f7c;
+    text-align:center;
+    margin: 0 auto;
+    padding-top: 1rem;
+
+}
+.card2 img{
+    width: 25%;
+    height: 408px;
+}
+.card2{
+    border: 2px solid var(--primary-color);
+    height: 450px;
+    margin-left: 10rem;
 }
 
 

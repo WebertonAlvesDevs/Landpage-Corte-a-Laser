@@ -201,15 +201,25 @@ main section div{
 
 }
 .card2 img{
-    width: 25%;
-    height: 408px;
+    width: 30%;
+    height: 350px;
+    padding-top: 7rem;
 }
 .card2{
     border: 2px solid var(--primary-color);
     height: 450px;
     margin-left: 10rem;
+    background-color: #f4f4f9;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+.card2 h2{
+    background-color: #f4f4f9;
+    color: #586f7c;
+    text-align:center;
+    margin: 0 auto;
+    padding-top: 1rem;
 
+}
 
 
     
